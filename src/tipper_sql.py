@@ -21,7 +21,7 @@ def add_subreddit(
 
 @db.connection_context()
 def modify_subreddit(subreddit, status):
-    Subreddit.update(status=status).where(Subredit.subreddit == subreddit).execute()
+    Subreddit.update(status=status).where(Subreddit.subreddit == subreddit).execute()
 
 @db.connection_context()
 def rm_subreddit(subreddit):
