@@ -7,4 +7,5 @@ RUN pip install --trusted-host pypi.org --no-cache-dir -r requirements.txt
 
 COPY src/* ./
 
+
 CMD ["python", "tipbot_launcher.py"]
