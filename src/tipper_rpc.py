@@ -42,7 +42,7 @@ def send(origin, amount, destination):
         "wallet": WALLET_ID,
         "source": origin,
         "destination": destination,
-        "amount": amount
+        "amount": str(amount)
     }
     if BPOW_KEY is not None:
         req["bpow_key"] = BPOW_KEY
