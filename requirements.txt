@@ -4,9 +4,9 @@ qrcode==6.1
 click
 black
 pytest
-peewee
+peewee==3.17.6
 pymysql
 psycopg2-binary
 pylint
-nanopy
+nanopy @ git+https://github.com/npy0/nanopy@b1aa7763cddb2337f06f23f443b1d9bfc4e697b1
 bitstring
